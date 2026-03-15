@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { Platform, RizzAISettings } from '../../../types';
+import type { Platform, RizzAISettings } from '../../types';
 
 interface SettingsPanelProps {
   settings: RizzAISettings;

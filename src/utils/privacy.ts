@@ -1,4 +1,4 @@
-import type { CapturedMessage, RizzAISettings } from '../../types';
+import type { CapturedMessage, RizzAISettings } from '../types';
 import { sanitizeForPrivacy } from './helpers';
 
 /**

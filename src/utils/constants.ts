@@ -1,4 +1,4 @@
-import type { RizzAISettings } from '../../types';
+import type { RizzAISettings } from '../types';
 
 export const DEFAULT_SETTINGS: RizzAISettings = {
   enabled: true,

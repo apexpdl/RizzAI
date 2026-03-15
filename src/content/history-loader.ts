@@ -1,4 +1,4 @@
-import type { CapturedMessage, PlatformAdapter } from '../../types';
+import type { CapturedMessage, PlatformAdapter } from '../types';
 import { saveMessages, deduplicateMessages } from '../storage/database';
 import { HISTORY_BATCH_SIZE } from '../utils/constants';
 

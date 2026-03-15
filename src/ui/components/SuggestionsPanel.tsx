@@ -1,5 +1,5 @@
 import React from 'react';
-import type { ReplySuggestion } from '../../../types';
+import type { ReplySuggestion } from '../../types';
 
 interface SuggestionsPanelProps {
   suggestions: ReplySuggestion[];

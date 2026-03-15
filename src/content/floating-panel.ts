@@ -1,4 +1,4 @@
-import type { ConversationAnalysis, PlatformAdapter, ReplySuggestion } from '../../types';
+import type { ConversationAnalysis, PlatformAdapter, ReplySuggestion } from '../types';
 
 /**
  * Floating UI panel injected near the message input box.

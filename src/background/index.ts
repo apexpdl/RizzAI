@@ -1,4 +1,4 @@
-import type { CapturedMessage, ExtensionMessage, RizzAISettings } from '../../types';
+import type { CapturedMessage, ExtensionMessage, RizzAISettings } from '../types';
 import { ReplyGenerator } from '../generation/reply-generator';
 import { ProfileBuilder } from '../analysis/profile-builder';
 import { ConversationAnalyzer } from '../analysis/conversation-analyzer';

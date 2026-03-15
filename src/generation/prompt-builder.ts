@@ -4,7 +4,7 @@ import type {
   ConversationAnalysis,
   ConversationStrategy,
   ReplyTone,
-} from '../../types';
+} from '../types';
 
 /**
  * Builds the LLM prompt for generating reply suggestions.

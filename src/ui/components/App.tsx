@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import type { ContactProfile, ConversationAnalysis, ReplySuggestion, RizzAISettings } from '../../../types';
+import type { ContactProfile, ConversationAnalysis, ReplySuggestion, RizzAISettings } from '../../types';
 import { DEFAULT_SETTINGS } from '../../utils/constants';
 import { Header } from './Header';
 import { SuggestionsPanel } from './SuggestionsPanel';

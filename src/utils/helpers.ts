@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import type { Platform, MessageMetadata } from '../../types';
+import type { Platform, MessageMetadata } from '../types';
 import { PLATFORM_URLS } from './constants';
 
 /** Generate a unique ID */
@@ -33,7 +33,8 @@ export function extractMetadata(text: string): MessageMetadata {
 }
 
 /** Debounce a function */
-export function debounce<T extends (...args: unknown[]) => void>(
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function debounce<T extends (...args: any[]) => void>(
   fn: T,
   delay: number
 ): (...args: Parameters<T>) => void {

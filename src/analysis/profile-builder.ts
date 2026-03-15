@@ -7,7 +7,7 @@ import type {
   EmotionalTonePattern,
   HumorStyle,
   EmojiUsage,
-} from '../../types';
+} from '../types';
 
 /**
  * Builds and updates a ContactProfile from conversation messages.

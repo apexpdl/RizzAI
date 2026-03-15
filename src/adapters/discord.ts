@@ -1,4 +1,4 @@
-import type { Platform } from '../../types';
+import type { Platform } from '../types';
 import { BaseAdapter } from './base';
 import { hashString } from '../utils/helpers';
 

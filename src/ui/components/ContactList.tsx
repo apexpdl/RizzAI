@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import type { ContactProfile } from '../../../types';
+import type { ContactProfile } from '../../types';
 
 export function ContactList() {
   const [contacts, setContacts] = useState<ContactProfile[]>([]);

@@ -1,4 +1,4 @@
-import type { Platform, PlatformAdapter } from '../../types';
+import type { Platform, PlatformAdapter } from '../types';
 import { InstagramAdapter } from './instagram';
 import { TwitterAdapter } from './twitter';
 import { WhatsAppAdapter } from './whatsapp';

@@ -7,7 +7,7 @@ import type {
   InterestSignals,
   ReplyTone,
   StyleProfile,
-} from '../../types';
+} from '../types';
 
 /**
  * Analyzes conversation dynamics, interest signals, energy levels,

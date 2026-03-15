@@ -1,4 +1,4 @@
-import type { CapturedMessage, Platform, PlatformAdapter } from '../../types';
+import type { CapturedMessage, Platform, PlatformAdapter } from '../types';
 import { generateId, extractMetadata, sleep } from '../utils/helpers';
 import { SCROLL_DELAY_MS, MAX_SCROLL_ATTEMPTS } from '../utils/constants';
 

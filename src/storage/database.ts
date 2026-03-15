@@ -1,5 +1,5 @@
 import { openDB, type IDBPDatabase } from 'idb';
-import type { CapturedMessage, ContactProfile, ConversationAnalysis, RizzAISettings } from '../../types';
+import type { CapturedMessage, ContactProfile, ConversationAnalysis, RizzAISettings } from '../types';
 import { DEFAULT_SETTINGS } from '../utils/constants';
 
 const DB_NAME = 'rizzai';

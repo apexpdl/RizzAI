@@ -1,4 +1,4 @@
-import type { CapturedMessage, PlatformAdapter } from '../../types';
+import type { CapturedMessage, PlatformAdapter } from '../types';
 import { saveMessages } from '../storage/database';
 import { debounce } from '../utils/helpers';
 import { DOM_OBSERVER_DEBOUNCE_MS } from '../utils/constants';

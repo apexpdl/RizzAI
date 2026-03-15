@@ -1,4 +1,4 @@
-import type { CapturedMessage, PlatformAdapter, ReplySuggestion } from '../../types';
+import type { CapturedMessage, PlatformAdapter, ReplySuggestion } from '../types';
 import { getActiveAdapter } from '../adapters';
 import { HistoryLoader } from './history-loader';
 import { MessageObserver } from './message-observer';

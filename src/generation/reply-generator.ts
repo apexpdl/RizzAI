@@ -5,7 +5,7 @@ import type {
   ReplyTone,
   ReplySuggestion,
   RizzAISettings,
-} from '../../types';
+} from '../types';
 import { PromptBuilder } from './prompt-builder';
 import { generateId } from '../utils/helpers';
 
