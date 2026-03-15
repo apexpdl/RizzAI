@@ -1,0 +1,422 @@
+/* ============================================
+   RizzAI Popup Styles
+   ============================================ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.rizzai-popup {
+  background: #0f0f0f;
+  color: #e0e0e0;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.rizzai-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 16px 16px 0;
+}
+
+.rizzai-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.rizzai-logo {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: -0.5px;
+}
+
+.rizzai-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rizzai-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff4444;
+}
+
+.rizzai-status-dot.connected {
+  background: #44ff44;
+}
+
+.rizzai-status-text {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Navigation */
+.rizzai-nav {
+  display: flex;
+  gap: 0;
+}
+
+.rizzai-nav-btn {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.rizzai-nav-btn:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.rizzai-nav-btn.active {
+  color: white;
+  border-bottom-color: white;
+}
+
+/* Content */
+.rizzai-content {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+}
+
+/* Actions */
+.rizzai-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+/* Buttons */
+.rizzai-btn {
+  background: #1a1a2e;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.rizzai-btn:hover {
+  border-color: #667eea;
+  background: #16213e;
+}
+
+.rizzai-btn.primary {
+  background: #667eea;
+  border-color: #667eea;
+  color: white;
+}
+
+.rizzai-btn.primary:hover {
+  background: #5a6fd6;
+}
+
+.rizzai-btn.small {
+  padding: 4px 10px;
+  font-size: 11px;
+}
+
+/* Contact Card */
+.rizzai-contact-card {
+  background: #1a1a2e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+
+.rizzai-contact-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.rizzai-platform-tag {
+  font-size: 10px;
+  background: #667eea33;
+  color: #667eea;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rizzai-msg-count {
+  font-size: 11px;
+  color: #777;
+  margin-left: auto;
+}
+
+.rizzai-contact-details,
+.rizzai-contact-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 11px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.rizzai-contact-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.rizzai-topic-tag {
+  background: #16213e;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 10px;
+  color: #aaa;
+}
+
+/* Section Titles */
+.rizzai-section-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #667eea;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.rizzai-subsection-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: #888;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+
+/* Suggestions */
+.rizzai-suggestions {
+  margin-bottom: 16px;
+}
+
+.rizzai-suggestions-empty {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.rizzai-suggestion-card {
+  background: #16213e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  transition: border-color 0.2s;
+}
+
+.rizzai-suggestion-card:hover {
+  border-color: #667eea;
+}
+
+.rizzai-suggestion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.rizzai-tone-badge {
+  font-size: 10px;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.rizzai-confidence {
+  font-size: 10px;
+  color: #666;
+}
+
+.rizzai-suggestion-text {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #e0e0e0;
+}
+
+.rizzai-suggestion-reasoning {
+  font-size: 11px;
+  color: #666;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.rizzai-suggestion-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+/* Insights */
+.rizzai-insights {
+  margin-top: 8px;
+}
+
+.rizzai-insight-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.rizzai-insight-item {
+  background: #16213e;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.rizzai-insight-label {
+  display: block;
+  font-size: 10px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rizzai-insight-value {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.energy-high { color: #48bb78; }
+.energy-medium { color: #ed8936; }
+.energy-low { color: #e53e3e; }
+
+.rizzai-signals,
+.rizzai-tips {
+  margin-top: 8px;
+}
+
+.rizzai-signal-item,
+.rizzai-tip-item {
+  font-size: 11px;
+  color: #aaa;
+  padding: 3px 0;
+}
+
+.rizzai-signal-item::before {
+  content: "• ";
+  color: #667eea;
+}
+
+.rizzai-tip-item::before {
+  content: "→ ";
+  color: #667eea;
+}
+
+/* Settings */
+.rizzai-settings {
+  padding: 12px;
+}
+
+.rizzai-setting-group {
+  margin-bottom: 16px;
+}
+
+.rizzai-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #aaa;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rizzai-input-group {
+  display: flex;
+  gap: 6px;
+}
+
+.rizzai-input,
+.rizzai-select {
+  background: #1a1a2e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e0e0e0;
+  padding: 8px 10px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.rizzai-input:focus,
+.rizzai-select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.rizzai-toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 12px;
+}
+
+.rizzai-hint {
+  font-size: 11px;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Empty State */
+.rizzai-empty-state {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.rizzai-empty-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.rizzai-empty-state p {
+  color: #888;
+  font-size: 13px;
+}
+
+.rizzai-subtitle {
+  font-size: 11px !important;
+  color: #555 !important;
+  margin-top: 6px;
+}
+
+/* Loading */
+.rizzai-loading {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+/* Contacts */
+.rizzai-contacts {
+  padding: 12px;
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "context_messages": [
+      "Hey what are you up to tonight?",
+      "Not much, just chilling. You?"
+    ],
+    "reply": "Same honestly, but I feel like I need to do something fun. Any ideas?",
+    "tone": "curious",
+    "engagement_score": 0.78
+  },
+  {
+    "context_messages": [
+      "I just got back from the gym",
+      "Oh nice, what did you work on?"
+    ],
+    "reply": "Legs day. I can barely walk but at least I'll look good doing it 😂",
+    "tone": "humorous",
+    "engagement_score": 0.85
+  },
+  {
+    "context_messages": [
+      "I'm watching this new show on Netflix",
+      "Which one?",
+      "It's called Black Mirror"
+    ],
+    "reply": "Oh that show is wild. Which episode are you on? Some of them will actually mess with your head",
+    "tone": "curious",
+    "engagement_score": 0.82
+  },
+  {
+    "context_messages": [
+      "Haha you're so funny",
+      "I try my best 😌"
+    ],
+    "reply": "You don't even have to try, it just comes naturally",
+    "tone": "confident",
+    "engagement_score": 0.88
+  },
+  {
+    "context_messages": [
+      "I had the worst day today",
+      "Oh no what happened?"
+    ],
+    "reply": "Tell me everything, I'm all ears. Also I'm great at making bad days better 😊",
+    "tone": "playful",
+    "engagement_score": 0.80
+  },
+  {
+    "context_messages": [
+      "Do you have any travel plans this summer?",
+      "Not yet, do you?"
+    ],
+    "reply": "I've been thinking about it. Maybe we should plan something together 👀",
+    "tone": "confident",
+    "engagement_score": 0.90
+  },
+  {
+    "context_messages": [
+      "I can't believe you've never tried sushi",
+      "I know I know, I need to"
+    ],
+    "reply": "Ok that's it, I'm taking you. You can't live like this anymore",
+    "tone": "playful",
+    "engagement_score": 0.92
+  },
+  {
+    "context_messages": [
+      "You always text me at the perfect time",
+      "Haha really?"
+    ],
+    "reply": "What can I say, I have great timing. Or maybe I just think about you at the right moments 😏",
+    "tone": "confident",
+    "engagement_score": 0.91
+  },
+  {
+    "context_messages": [
+      "I'm so bored",
+      "Same tbh"
+    ],
+    "reply": "We should fix that. What's the most random thing you've always wanted to try?",
+    "tone": "curious",
+    "engagement_score": 0.79
+  },
+  {
+    "context_messages": [
+      "Goodnight!",
+      "Night! 🌙"
+    ],
+    "reply": "Sweet dreams, don't let the bed bugs steal your blanket 😂",
+    "tone": "humorous",
+    "engagement_score": 0.75
+  }
+]

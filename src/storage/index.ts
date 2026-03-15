@@ -1,0 +1,17 @@
+export {
+  saveMessages,
+  getMessagesByContact,
+  getRecentMessages,
+  getMessageCount,
+  deduplicateMessages,
+  saveContact,
+  getContact,
+  getAllContacts,
+  deleteContact,
+  saveAnalysis,
+  getAnalysis,
+  getSettings,
+  saveSettings,
+  clearAllData,
+  exportContactData,
+} from './database';
